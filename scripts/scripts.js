@@ -14,18 +14,21 @@
 
 	});
 	/* SLIDER CASINO */
+	 var height = $('._2_').height() 
 	$('.next').on('click', function(){
 		$('._2_').css({
 			'position' : 'absolute',
 			'left' : '0%',
-			'top' : '75px'});
+			'top' : '75px',
+			'height':height + 'px'});
 		
 	});
 	$('.prev').on('click', function(){
 		$('._2_').css({
 			'position' : 'absolute',
 			'left' : '-100%',
-			'top' : '75px'});
+			'top' : '75px',
+			'height':height + 'px'});
 	});
 
 	/* SLIDER LOT */
